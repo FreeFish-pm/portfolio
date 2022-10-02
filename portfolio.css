@@ -36,19 +36,20 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translateY(-125vh);
+    transform: translateY(-260vh);
     opacity: 0;
   }
 }
-
+/* 背景 */
 .bubble-background {
   position: relative;
   background:linear-gradient(#84CFFF, #40A6EC,#3289DF,#2465D3);
-  height: 120vh;
+  height: 260vh;
   width: 100%;
   overflow: hidden;
 }
 
+/* 本文の設定 */
 .portfolio-text {
   color: #FFFFFF;           /* 文字の色 */
   font-size: 170%;              /* 文字の大きさ */
