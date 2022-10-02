@@ -36,7 +36,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translateY(-100vh);
+    transform: translateY(-125vh);
     opacity: 0;
   }
 }
@@ -44,7 +44,7 @@ body {
 .bubble-background {
   position: relative;
   background:linear-gradient(#84CFFF, #40A6EC,#3289DF,#2465D3);
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   overflow: hidden;
 }
