@@ -1,7 +1,7 @@
 /* ウェブページ周囲の余白を消す */
 body {
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* 泡の見た目 */
@@ -40,21 +40,29 @@ body {
     opacity: 0;
   }
 }
+
 /* 背景 */
 .bubble-background {
   position: relative;
-  background:linear-gradient(#84CFFF, #40A6EC,#3289DF,#2465D3);
-  height: 260vh;
-  width: 100%;
+  background:linear-gradient(#84CFFF,#3289DF,#2465D3);
+  height: auto;
+  width: auto;
   overflow: hidden;
 }
 
 /* 本文の設定 */
 .portfolio-text {
   color: #FFFFFF;           /* 文字の色 */
-  font-size: 170%;              /* 文字の大きさ */
+  font-size: 150%;              /* 文字の大きさ */
   text-align:  center;        /* 文字を要素の中央に */
   width:  auto;               /* 要素の幅指定 */
   padding: 50px 0;            /* 周りの余白指定 */
   display:block;              /* ブロック要素にする */
+}
+
+/* 要素のはみ出し防止 */
+.box {
+  width: auto;
+  height: auto;
+  overflow-y: scroll
 }
