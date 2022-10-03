@@ -53,6 +53,7 @@ body {
 /* 本文の設定 */
 .portfolio-text {
   color: #FFFFFF;           /* 文字の色 */
+  font-family: "Times New Roman"; /* フォントの変更 */ 
   font-size: 150%;              /* 文字の大きさ */
   text-align:  center;        /* 文字を要素の中央に */
   width:  auto;               /* 要素の幅指定 */
